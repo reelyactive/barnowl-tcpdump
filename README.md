@@ -31,6 +31,27 @@ barnowl.on("infrastructureMessage", function(message) {
 });
 ```
 
+Supported Listener Interfaces
+-----------------------------
+
+The following listener interfaces are supported.
+
+### Spawn
+
+Attempts to spawn a tcpdump process, first configuring the interface in monitor mode.
+
+```javascript
+barnowl.addListener(BarnowlTcpdump.SpawnListener, {});
+```
+
+### Test
+
+Provides a steady stream of simulated reel packets for testing purposes.
+
+```javascript
+barnowl.addListener(BarnowlTcpdump.TestListener, {});
+```
+
 
 License
 -------
