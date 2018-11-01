@@ -8,7 +8,7 @@
     "barnowl",
     "tcpdump"
   ],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "node": ">=6.0.0"
   },
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "advlib-identifier": ">=0.1.0",
-    "raddec": ">=0.1.0"
+    "raddec": ">=0.1.5"
   },
   "devDependencies": {
   },
