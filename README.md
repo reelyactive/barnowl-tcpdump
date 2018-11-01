@@ -41,8 +41,13 @@ The following listener interfaces are supported.
 Attempts to spawn a tcpdump process, first configuring the interface in monitor mode.
 
 ```javascript
-barnowl.addListener(BarnowlTcpdump.SpawnListener, {});
+let options = { exitOnClose: false };
+
+barnowl.addListener(BarnowlTcpdump.SpawnListener, options);
 ```
+
+The SpawnListener supports the following options:
+- __exitOnClose__: exit the entire process should the spawned tcpdump close (default: _false_)
 
 ### Test
 
