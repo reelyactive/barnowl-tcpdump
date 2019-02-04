@@ -8,11 +8,11 @@
     "barnowl",
     "tcpdump"
   ],
-  "version": "0.1.4",
+  "version": "0.1.5",
   "engines": {
     "node": ">=6.0.0"
   },
-  "main": "./lib/barnowl.js",
+  "main": "./lib/barnowltcpdump.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/reelyactive/barnowl-tcpdump.git"
